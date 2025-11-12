@@ -160,13 +160,19 @@ export default function HomePage() {
         ranking or eligibility.
       </section>
 
-      {/* Footer */}
       <footer className="relative z-10 text-neutral-500 text-sm text-center mt-20 pb-6 border-t border-[#1C2435] pt-6">
-        Built with 💙 for the{" "}
-        <span className="text-[#60A5FA] font-medium">Base</span> community by{" "}
-        <span className="font-semibold">Vishal</span> | Powered by{" "}
-        <span className="text-[#93C5FD]">Next.js + Wagmi + Blockscout</span>
-      </footer>
+  Built with 💙 for the{" "}
+  <span className="text-[#60A5FA] font-medium">Base</span> community by{" "}
+  <a
+    href="https://x.com/onchainfoot"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold text-[#60A5FA] hover:underline transition-colors"
+  >
+    @onchainfoot
+  </a>{" "}
+  | Tracking real onchain activity across networks 🌐
+</footer>
     </main>
   );
 }
