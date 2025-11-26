@@ -206,9 +206,19 @@ export default function MultiChainDashboard() {
         </p>
       </section>
 
-      <footer className="text-[#9CA3AF] text-sm text-center pt-8 border-t border-[#1E3A8A]/40">
-        Built with ❤️ — Multi-chain via Blockscout APIs (normal + internal)
-      </footer>
+      <footer className="relative z-10 text-neutral-500 text-sm text-center mt-20 pb-6 border-t border-[#1C2435] pt-6">
+  Built with 💙 for the{" "}
+  <span className="text-[#60A5FA] font-medium">Base</span> community by{" "}
+  <a
+    href="https://x.com/onchainfoot"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="font-semibold text-[#60A5FA] hover:underline transition-colors"
+  >
+    @onchainfoot
+  </a>{" "}
+  | Tracking real onchain activity across networks 🌐
+</footer>
     </main>
   );
 }
